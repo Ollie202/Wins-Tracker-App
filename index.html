@@ -20,14 +20,14 @@
     .reset-btn:hover .reset-tooltip { opacity: 1; }
     @supports(height: 100dvh) { .app-root { min-height: 100dvh; } }
   </style>
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/recharts@2.12.7/umd/Recharts.js"></script>
-  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+  <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+  <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.26.10/babel.min.js"></script>
+  <script crossorigin src="https://cdn.jsdelivr.net/npm/recharts@2.15.3/umd/Recharts.min.js"></script>
 </head>
 <body>
-  <div id="root"></div>
-  <script type="text/babel">
+  <div id="root"><p style="text-align:center;padding:40px;font-family:sans-serif;color:#888">Loading app...</p></div>
+  <script type="text/babel" data-presets="env,react">
 const {useState, useCallback, useEffect, Fragment} = React;
 const {
   BarChart, Bar, LineChart, Line, AreaChart, Area, RadarChart, Radar,
