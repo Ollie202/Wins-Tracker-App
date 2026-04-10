@@ -235,7 +235,7 @@ function render(){
   const isPie=state.chartType.toLowerCase()==="pie";
   const canvas=el("canvas",{id:"mainChart",style:{width:"100%",maxHeight:isPie?"360px":"300px"}});
   chartCard.appendChild(canvas);
-  if(isPie)chartCard.style.marginBottom="40px";
+  if(isPie)chartCard.style.marginBottom="100px";
   app.appendChild(chartCard);
 
   // Add button
