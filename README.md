@@ -39,7 +39,7 @@ Wins-Tracker-App/
    ```
 2. Open `index.html` in your browser.
 
-No npm, no Vite, no build step. Just open the file.
+No installation required. Just open the file.
 
 ## CSV Format
 
