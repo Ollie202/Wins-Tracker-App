@@ -2,9 +2,7 @@
 
 A personal monthly wins tracker for logging earnings, setting goals, and visualizing income sources.
 
-## Demo
-
-**[Open Wins-Tracker-App](https://wins-tracker-app.vercel.app/)**
+**[Check it out here](https://wins-tracker-app.vercel.app/)**
 
 ## Features
 
